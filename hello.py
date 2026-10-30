@@ -1,5 +1,6 @@
-import requests
 
-response = requests.get('https://api.github.com')
-print(response.text) 
-print(response.status_code) 
+
+dictionary_object = {"name": "John", "age": 30, "city": "New York"  }
+
+
+dictionary_object.pop("city")
